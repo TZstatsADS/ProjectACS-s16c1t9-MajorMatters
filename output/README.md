@@ -3,3 +3,7 @@
 
 The output directory contains analysis output, processed datasets, logs, or other processed things. Also only generated files that can be regenerated if needed. 
 
+## Summary 
+
+![GitHub Logo](/output/images/ScreenShot1.png)
+Format: ![Alt Text](url)
