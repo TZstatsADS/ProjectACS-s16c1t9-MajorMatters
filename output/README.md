@@ -5,4 +5,4 @@ The output directory contains analysis output, processed datasets, logs, or othe
 
 ## Summary 
 
-![GitHub Logo](output/image/ScreenShot1.png)
+![GitHub Logo](https://github.com/TZstatsADS/cycle1-9/tree/master/output/image/ScreenShot1.png)
