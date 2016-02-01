@@ -5,5 +5,4 @@ The output directory contains analysis output, processed datasets, logs, or othe
 
 ## Summary 
 
-![GitHub Logo](/output/images/ScreenShot1.png)
-Format: ![Alt Text](url)
+![GitHub Logo](output/image/ScreenShot1.png)
