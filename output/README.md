@@ -8,5 +8,5 @@ The output directory contains analysis output, processed datasets, logs, or othe
 
  <p align="center">
  
-   <img src="https://github.com/TZstatsADS/cycle1-9/tree/master/output/image/ScreenShot1.png">
+   <img src="https://raw.github.com/TZstatsADS/cycle1-9/tree/master/output/image/ScreenShot1.png">
  </p>
