@@ -6,7 +6,4 @@ The output directory contains analysis output, processed datasets, logs, or othe
 ## Summary 
 
 
- <p align="center">
- 
-   <img src="https://raw.github.com/TZstatsADS/cycle1-9/tree/master/output/image/ScreenShot1.png">
- </p>
+![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D)
