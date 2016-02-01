@@ -5,15 +5,18 @@ The output directory contains analysis output, processed datasets, logs, or othe
 
 ### Summary 
 
-1. Classification of Major
- * table 1
+1. Occupations Categories
 
-First Header | Second Header
------------- | -------------
-Content cell 1 | Content cell 2
-Content column 1 | Content column 2
+Management Occupations               | Business and Financial Operations Occupations:
+-------------------------------------| ---------------------------------------------------
+MGR-CHIEF EXECUTIVES AND LEGISLATORS | BUS-TRAINING AND DEVELOPMENT SPECIALISTS
+MGR-GENERAL AND OPERATIONS MANAGERS  | FIN-APPRAISERS AND ASSESSORS OF REAL ESTATE
+MGR-MARKETING AND SALES MANAGERS     | FIN-CREDIT ANALYSTS
+MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
+...       ...       ...       ...    |...       ...       ...       ...       ...       ...
 
-2. Item 2
+2. Major Categories
+
 3. Item 3
  * Item 3a
  * Item 3b
