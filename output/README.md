@@ -30,7 +30,7 @@ Content column 1 | Content column 2
 
 ### Bar Chart
 
-### Appendix Coding
+## Appendix Coding
 
 #### D3.js
 
