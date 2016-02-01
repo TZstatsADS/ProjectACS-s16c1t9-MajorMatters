@@ -26,5 +26,6 @@ g <- as.data.frame(e)
 # Industry    Degree    Count
 #   0170        1100    230
 #   0180        1101    83
-
+h <- g[g$Freq != 0,]
+write.csv(h,"bip_data.csv",row.names = F)
 
