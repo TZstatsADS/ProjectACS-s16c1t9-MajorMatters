@@ -3,7 +3,7 @@
 
 The output directory contains analysis output, processed datasets, logs, or other processed things. Also only generated files that can be regenerated if needed. 
 
-## Summary 
+### Summary 
 
 1. Classification of Major
  * table 1
@@ -21,18 +21,18 @@ Content column 1 | Content column 2
 
 
 
-## BiPart Graph
+### BiPart Graph
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D)
 
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot2.png?token=AKN9cShEtuC4-MfggxyMDMq-rLsKLkFXks5WuRaUwA%3D%3D)
 
-## Circular 
+### Circular 
 
-## Bar Chart
+### Bar Chart
 
-## Appendix Coding
+### Appendix Coding
 
-### D3.js
+#### D3.js
 
 
 most of the coding credit to http://bl.ocks.org/NPashaP/9796212
