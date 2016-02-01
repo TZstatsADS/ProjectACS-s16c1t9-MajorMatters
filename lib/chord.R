@@ -19,8 +19,10 @@ rm(c)
 # For example, there are 230 people who had a Degree in 1100 and work in industry 0170.
 e <- table(d$FOD1P,d$INDP)
 
-# TODO
-# Need to turn e into a data frame that looks like:
+
+
+g <- as.data.frame(e)
+# Turns e into a data frame that looks like:
 # Industry    Degree    Count
 #   0170        1100    230
 #   0180        1101    83
