@@ -34,9 +34,6 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
 
 
 2. Major Categories
-
-
-
  * Data: **FOD1P** column (Field of Degree 1st Entry)
  * Classification standard comes from the U.S. Census Bureau 
  * 15 Categories in total 
@@ -47,7 +44,17 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
  * Classification standard comes from the U.S. Census Bureau 
  * 15 Categories in total 
 # We then track the outflow of majors into different occupations
+<<<<<<< HEAD
+=======
 3. Wage: WAGP (Wage in the past 12 months)
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 Engineering                          | Education
 -------------------------------------| ---------------------------------------------------
@@ -57,6 +64,7 @@ ARCHITECTURAL ENGINEERING            | SPECIAL NEEDS EDUCATION
 BIOMEDICAL ENGINEERING               | ART AND MUSIC EDUCATION
 ...       ...       ...       ...    |...       ...       ...       ...       ...       ...
 
+3. Wage: WAGP (Wage in the past 12 months)
 
 ### Visualization
 
