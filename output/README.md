@@ -6,7 +6,7 @@ The output directory contains analysis output, processed datasets, logs, or othe
 ### Research Questions
 ####To what extent does one's major determine his/her career?
 #####To stay or to betray? That is a (serious) question.  
-* Do people work in fields different from their college major? How does this tendency vary accross major?  
+* Do people work in fields different from their college major? How does this tendency vary accross major?<br /> 
 Do fields favor certain majors? 
 * Let's say, how computer scientists have a Bachelor’s Degree in CS? <br /> *Income???*
 
@@ -37,8 +37,7 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
  * Classification standard comes from U.S. Census Bureau 
  * 15 Catogories in total 
 # We then track the outflow of majors into different occupations
-3. Age : AGEP
-4. Wage: WAGP (Wage in the past 12 months)
+3. Wage: WAGP (Wage in the past 12 months)
 
 Engineering                          | Education
 -------------------------------------| ---------------------------------------------------
