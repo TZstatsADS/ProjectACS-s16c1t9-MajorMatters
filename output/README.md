@@ -14,10 +14,10 @@ Do certain fields favor certain majors?
 
 ### Preprocess Datasets
 
-* To account for survey weights, each observation is replicated the number of times specified in the **PWGTP** column. The expanded dataset is in the file totaldat.expanded.RDS.
+1. To account for survey weights, each observation is replicated the number of times specified in the **PWGTP** column. The expanded dataset is in the file totaldat.expanded.RDS.
 
 
-1. Occupations Categories
+2. Occupations Categories
  * Data: **OCCP** column (Occupation Code)
  * Categories assigned according to the code list released by U.S. Census Bureau
  * 16 Categories in total 
@@ -33,28 +33,21 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
 ...       ...       ...       ...    |...       ...       ...       ...       ...       ...
 
 
-2. Major Categories
+3. Major Categories
+
+
+
  * Data: **FOD1P** column (Field of Degree 1st Entry)
  * Classification standard comes from the U.S. Census Bureau 
  * 15 Categories in total 
 # We then track the outflow of majors into different occupations.
 3. Age : **AGEP**
 4. Wage: **WAGP** (Wage in the past 12 months)
-=======
+
  * Classification standard comes from the U.S. Census Bureau 
  * 15 Categories in total 
 # We then track the outflow of majors into different occupations
-<<<<<<< HEAD
-=======
-3. Wage: WAGP (Wage in the past 12 months)
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
->>>>>>> Stashed changes
+
 
 Engineering                          | Education
 -------------------------------------| ---------------------------------------------------
@@ -64,7 +57,6 @@ ARCHITECTURAL ENGINEERING            | SPECIAL NEEDS EDUCATION
 BIOMEDICAL ENGINEERING               | ART AND MUSIC EDUCATION
 ...       ...       ...       ...    |...       ...       ...       ...       ...       ...
 
-3. Wage: WAGP (Wage in the past 12 months)
 
 ### Visualization
 
@@ -86,11 +78,11 @@ BIOMEDICAL ENGINEERING               | ART AND MUSIC EDUCATION
 
 
 ###References
-Major Classification Standard:[View Here](http://www.census.gov/prod/2012pubs/acsbr11-04a.pdf)  
-Occupation Codelist and Classification:[Download Here](https://www.census.gov/people/io/files/2013 ACS 1-year and 2014 SIPP PUMS Occupation code list.xlsx)  
-Visualization Inspirations:[BiPartite](http://bl.ocks.ossrg/NPashaP/9796212)   
+Major Classification Standard:[View Here](http://www.census.gov/prod/2012pubs/acsbr11-04a.pdf) <br />
+Occupation Codelist and Classification:[Download Here](https://www.census.gov/people/io/files/2013 ACS 1-year and 2014 SIPP PUMS Occupation code list.xlsx)  <br />
+Visualization Inspirations:[BiPartite](http://bl.ocks.ossrg/NPashaP/9796212)   <br />
 
-most of the coding credit to http://bl.ocks.org/NPashaP/9796212
+most of the javascript coding credits to http://bl.ocks.org/NPashaP/9796212
 
 ```javascript
 !function(){
