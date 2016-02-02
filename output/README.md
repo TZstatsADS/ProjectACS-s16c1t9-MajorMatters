@@ -10,7 +10,6 @@ The output directory contains analysis output, processed datasets, logs, or othe
 * Do people work in fields different from their college majors? How does this tendency vary across major?  
 Do certain fields favor certain majors? 
 * Let's say, how many computer scientists have a Bachelor’s Degree in CS? <br /> *Income???*
-=======
 * Do people work in fields different from their college major? How does this tendency vary accross major?<br /> 
 Do fields favor certain majors? 
 * Let's say, how computer scientists have a Bachelor’s Degree in CS? <br /> *Income???*
