@@ -23,13 +23,13 @@ Do certain fields favor certain majors?
  * 16 Categories in total 
 
 
-Management Occupations               | Business and Financial Operations Occupations
--------------------------------------| ---------------------------------------------------
-MGR-CHIEF EXECUTIVES AND LEGISLATORS | BUS-TRAINING AND DEVELOPMENT SPECIALISTS
-MGR-GENERAL AND OPERATIONS MANAGERS  | FIN-APPRAISERS AND ASSESSORS OF REAL ESTATE
-MGR-MARKETING AND SALES MANAGERS     | FIN-CREDIT ANALYSTS
-MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
-...       ...       ...       ...    |...       ...       ...       ...       ...       ...
+	Management Occupations               | Business and Financial Operations Occupations
+	-------------------------------------| ---------------------------------------------------
+	MGR-CHIEF EXECUTIVES AND LEGISLATORS | BUS-TRAINING AND DEVELOPMENT SPECIALISTS
+	MGR-GENERAL AND OPERATIONS MANAGERS  | FIN-APPRAISERS AND ASSESSORS OF REAL ESTATE
+	MGR-MARKETING AND SALES MANAGERS     | FIN-CREDIT ANALYSTS
+	MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
+	...       ...       ...       ...    |...       ...       ...       ...       ...       ...
 
 
 3. Major Categories
@@ -40,13 +40,13 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
  * We then track the outflow of majors into different occupations.
 
 
-Engineering                          | Education
--------------------------------------| ---------------------------------------------------
-AEROSPACE ENGINEERING                | GENERAL EDUCATION
-BIOLOGICAL ENGINEERING               | ELEMENTARY EDUCATION
-ARCHITECTURAL ENGINEERING            | SPECIAL NEEDS EDUCATION
-BIOMEDICAL ENGINEERING               | ART AND MUSIC EDUCATION
-...       ...       ...       ...    |...       ...       ...       ...       ...       ...
+	Engineering                          | Education
+	-------------------------------------| ---------------------------------------------------
+	AEROSPACE ENGINEERING                | GENERAL EDUCATION
+	BIOLOGICAL ENGINEERING               | ELEMENTARY EDUCATION
+	ARCHITECTURAL ENGINEERING            | SPECIAL NEEDS EDUCATION
+	BIOMEDICAL ENGINEERING               | ART AND MUSIC EDUCATION
+	...       ...       ...       ...    |...       ...       ...       ...       ...       ...
 
 
 ### Visualization
