@@ -18,7 +18,7 @@ rm(c)
 # The cross between the two is the the "count". 
 # For example, there are 230 people who had a Degree in 1100 and work in industry 0170.
 
-
+library(car)
 # Recode(x,"10:430='MAN'; 500:950='BUS'; 1000:1240='COMP'; 1300:1560='ENG'; 1600:1965='SOCSci'; 2000:2060='SOCServ'; 2100:2160='LEGAL'; 2200:2550='EDU'; 2600:2960='ArtEnt'; 3000:3540='HEALTH';" )
 d$OCCPcl<- Recode(d$OCCP,"10:430='Management'; 500:950='Business and Financial Operations'; 1000:1240='Computer and mathematical occupations'; 1300:1560='Engineering and Architecture'; 1600:1965='Life, Physical, and Social Science Occupations'; 2000:2060='Community and Social Service'; 2100:2160='Legal'; 2200:2550='Education, Training, and Library Occupations'; 2600:2960='Arts, Design, Entertainment, Sports, and Media'; 3000:3540='Healthcare Practitioners and Technical Occupations'; 3600:4650='Service Occupations'; 4700:4965='Sales and Related Occupations'; 5000:5940='Office and Administrative Support'; 6000:7630='Natural Resources, Construction, and Maintenance'; 7700:9750='Production, Transportation, and Material Moving'; 9800:9999='Military Specific'")
 d1 <- d[c("FOD1P","OCCPcl")]
@@ -46,6 +46,8 @@ g <- as.data.frame(e)
 #   0170        1100    230
 #   0180        1101    83
 h <- g[g$Freq != 0,]
-write.csv(h,"bip_data_occ_deg.csv",row.names = F)
+write.csv(h,"huge_data_occ_deg.csv",row.names = F)
 x = h$Var2
+
+ex <- readRDS("expanded.RDS")
 
