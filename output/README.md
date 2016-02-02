@@ -6,8 +6,8 @@ The output directory contains analysis output, processed datasets, logs, or othe
 ### Research Questions
 ####To what extent does one's major determine his/her career?
 #####To stay or to betray? That is a (serious) question.  
-* Do people work in fields different from their college major? How does this tendency vary accross major?
-#####Do fields favor certain majors? 
+* Do people work in fields different from their college major? How does this tendency vary accross major?  
+Do fields favor certain majors? 
 * Say, how computer scientists have a Bachelor’s Degree in CS? 
 ##### *Income???*
 
