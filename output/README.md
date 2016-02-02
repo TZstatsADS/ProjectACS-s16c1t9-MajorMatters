@@ -6,17 +6,20 @@ The output directory contains analysis output, processed datasets, logs, or othe
 ### Research Questions
 ####To what extent does one's major determine his/her career?
 #####To stay or to betray? That is a (serious) question.  
-* Do people work in fields different from their college major? How does this tendency vary accross major?  
-Do fields favor certain majors? 
-* Let's say, how computer scientists have a Bachelor’s Degree in CS? <br /> *Income???*
+* Do people work in fields different from their college majors? How does this tendency vary across major?  
+Do certain fields favor certain majors? 
+* Let's say, how many computer scientists have a Bachelor’s Degree in CS? <br /> *Income???*
 
 
 ### Preprocess Datasets
 
+To account for survey weights, each observation is replicated the number of times specified in the **PWGTP** column. The expanded dataset is in the file totaldat.expanded.RDS.
+
+
 1. Occupations Categories
  * Data: **OCCP** column (Occupation Code)
  * Categories assigned according to the code list released by U.S. Census Bureau
- * 16 Catogories in total 
+ * 16 Categories in total 
 
 Occupations Categories
 
@@ -34,11 +37,11 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
 
 
  * Data: **FOD1P** column (Field of Degree 1st Entry)
- * Classification standard comes from U.S. Census Bureau 
- * 15 Catogories in total 
-# We then track the outflow of majors into different occupations
-3. Age : AGEP
-4. Wage: WAGP (Wage in the past 12 months)
+ * Classification standard comes from the U.S. Census Bureau 
+ * 15 Categories in total 
+# We then track the outflow of majors into different occupations.
+3. Age : **AGEP**
+4. Wage: **WAGP** (Wage in the past 12 months)
 
 Engineering                          | Education
 -------------------------------------| ---------------------------------------------------
