@@ -3,7 +3,21 @@
 
 The output directory contains analysis output, processed datasets, logs, or other processed things. Also only generated files that can be regenerated if needed. 
 
-### Summary 
+### Research Questions
+####To what extent does one's major determine his/her career?
+#####To stay or to betray? That is a (serious) question.  
+* Do people work in fields different from their college major? How does this tendency vary accross major?
+#####Do fields favor certain majors? 
+* Say, how computer scientists have a Bachelor’s Degree in CS? 
+##### *Income???*
+
+
+### Summary
+
+1. Occupations Categories
+ * Data: **OCCP** column (Occupation Code)
+ * Categories assigned according to the code list released by U.S. Census Bureau
+ * 16 Catogories in total 
 
 1. Occupations Categories
 
@@ -22,7 +36,26 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
  * Item 3b
 
 
+ 
+Management Occupations               | Business and Financial Operations Occupations:
+-------------------------------------| ---------------------------------------------------
+MGR-CHIEF EXECUTIVES AND LEGISLATORS | BUS-TRAINING AND DEVELOPMENT SPECIALISTS
+MGR-GENERAL AND OPERATIONS MANAGERS  | FIN-APPRAISERS AND ASSESSORS OF REAL ESTATE
+MGR-MARKETING AND SALES MANAGERS     | FIN-CREDIT ANALYSTS
+MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
+...       ...       ...       ...    |...       ...       ...       ...       ...       ...
 
+
+2. Major Categories
+ * Data: **FOD1P** column (Field of Degree 1st Entry)
+ * Classification standard comes from U.S. Census Bureau 
+ * 15 Catogories in total 
+# We then track the outflow of majors into different occupations
+3. Age : AGEP
+4. Wage: WAGP (Wage in the past 12 months)
+5. Item 3
+ * Item 3a
+ * Item 3b
 
 ### BiPart Graph
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D)
@@ -37,6 +70,11 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
 
 #### D3.js
 
+
+###References
+Major Classification Standard:[View Here](http://www.census.gov/prod/2012pubs/acsbr11-04a.pdf)  
+Occupation Codelist and Classification:[Download Here](https://www.census.gov/people/io/files/2013 ACS 1-year and 2014 SIPP PUMS Occupation code list.xlsx)  
+Visualization Inspirations:[BiPartite](http://bl.ocks.ossrg/NPashaP/9796212)   
 
 most of the coding credit to http://bl.ocks.org/NPashaP/9796212
 
