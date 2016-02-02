@@ -22,7 +22,6 @@ Do certain fields favor certain majors?
  * Categories assigned according to the code list released by U.S. Census Bureau
  * 16 Categories in total 
 
-Occupations Categories
 
 Management Occupations               | Business and Financial Operations Occupations
 -------------------------------------| ---------------------------------------------------
@@ -35,18 +34,10 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
 
 3. Major Categories
 
-
-
  * Data: **FOD1P** column (Field of Degree 1st Entry)
  * Classification standard comes from the U.S. Census Bureau 
  * 15 Categories in total 
-# We then track the outflow of majors into different occupations.
-3. Age : **AGEP**
-4. Wage: **WAGP** (Wage in the past 12 months)
-
- * Classification standard comes from the U.S. Census Bureau 
- * 15 Categories in total 
-# We then track the outflow of majors into different occupations
+ * We then track the outflow of majors into different occupations.
 
 
 Engineering                          | Education
