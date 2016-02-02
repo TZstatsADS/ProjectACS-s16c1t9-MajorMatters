@@ -1,22 +1,26 @@
-# Project: American Community Survey
-### Output folder
+# Project: Major Matters
 
-The output directory contains analysis output, processed datasets, logs, or other processed things. Also only generated files that can be regenerated if needed. 
+by Group 9 
 
 ### Research Questions
 ####To what extent does one's major determine his/her career?
 #####To stay or to betray? That is a (serious) question.  
-* Do people work in fields different from their college major? How does this tendency vary accross major?  
-Do fields favor certain majors? 
-* Let's say, how computer scientists have a Bachelor’s Degree in CS? <br /> *Income???*
+
+* Do people work in fields different from their college majors? How does this tendency vary across majors?  
+Do certain fields favor certain majors? 
+* Let's say, how many computer scientists have Bachelor’s Degrees in CS? <br /> *Income???*
+
 
 
 ### Preprocess Datasets
 
+* To account for survey weights, each observation is replicated the number of times specified in the **PWGTP** column. The expanded dataset is in the file totaldat.expanded.RDS.
+
+
 1. Occupations Categories
  * Data: **OCCP** column (Occupation Code)
  * Categories assigned according to the code list released by U.S. Census Bureau
- * 16 Catogories in total 
+ * 16 Categories in total 
 
 Occupations Categories
 
@@ -34,11 +38,16 @@ MGR-ADMINISTRATIVE SERVICES MANAGERS | FIN-FINANCIAL EXAMINERS
 
 
  * Data: **FOD1P** column (Field of Degree 1st Entry)
- * Classification standard comes from U.S. Census Bureau 
- * 15 Catogories in total 
+ * Classification standard comes from the U.S. Census Bureau 
+ * 15 Categories in total 
+# We then track the outflow of majors into different occupations.
+3. Age : **AGEP**
+4. Wage: **WAGP** (Wage in the past 12 months)
+=======
+ * Classification standard comes from the U.S. Census Bureau 
+ * 15 Categories in total 
 # We then track the outflow of majors into different occupations
-3. Age : AGEP
-4. Wage: WAGP (Wage in the past 12 months)
+3. Wage: WAGP (Wage in the past 12 months)
 
 Engineering                          | Education
 -------------------------------------| ---------------------------------------------------
@@ -53,13 +62,13 @@ BIOMEDICAL ENGINEERING               | ART AND MUSIC EDUCATION
 
 #### BiPart Graph
 
-http://localhost:8000/Desktop/cycle1-9/lib/BiPartie.html
 
-![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D)
+
+<a href="http://localhost:8000/Desktop/cycle1-9/lib/BiPartie.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D) </a>
 
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot2.png?token=AKN9cShEtuC4-MfggxyMDMq-rLsKLkFXks5WuRaUwA%3D%3D)
 
-#### Circular 
+#### Circular Graph
 
 #### Bar Chart
 
