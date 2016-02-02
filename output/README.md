@@ -53,8 +53,6 @@ Do certain fields favor certain majors?
 
 #### BiPart Graph
 
-
-
 <a href="http://localhost:8000/Desktop/cycle1-9/lib/BiPartie.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D) </a>
 
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot2.png?token=AKN9cShEtuC4-MfggxyMDMq-rLsKLkFXks5WuRaUwA%3D%3D)
@@ -63,6 +61,21 @@ Do certain fields favor certain majors?
 
 #### Bar Chart
 
+![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/hist.png?token=AKN9ccV9okD7KkPQ-0NELht_ZwPRLHq4ks5WunfCwA%3D%3D)
+
+###T-test Result
+```
+Welch Two Sample t-test
+ 
+data:  wage.com and wage.non
+t = 102.34, df = 1776000, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+7565.648 7861.103
+sample estimates:
+mean of x mean of y 
+84165.30  76451.92
+```
 ### Appendix Coding
 
 #### D3.js
