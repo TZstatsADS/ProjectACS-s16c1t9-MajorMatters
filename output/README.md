@@ -54,13 +54,13 @@ Do certain fields favor certain majors?
 
 #### BiPart Graph
 
-<a href="http://localhost:8000/Desktop/cycle1-9/lib/bigPartite.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D) </a>
+<a href="http://qacprojects.wesleyan.edu/visualizations/test/bigPartite.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D) </a>
 
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot2.png?token=AKN9cShEtuC4-MfggxyMDMq-rLsKLkFXks5WuRaUwA%3D%3D)
 
 #### Circular Graph
 
-<a href="http://localhost:8000/Desktop/cycle1-9/lib/coffee-from-files.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/circle.png?token=AKN9cTMC83FRHNiK-izup2aqdQbcY2xXks5Wu4FvwA%3D%3D)</a>
+<a href="http://qacprojects.wesleyan.edu/visualizations/test/coffee-from-files.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/circle.png?token=AKN9cTMC83FRHNiK-izup2aqdQbcY2xXks5Wu4FvwA%3D%3D)</a>
 
 
 #### Bar Plots
@@ -102,8 +102,8 @@ Therefore, the small p-value indicates that having a computer science related de
 Major Classification Standard:[View Here](http://www.census.gov/prod/2012pubs/acsbr11-04a.pdf) <br />
 Occupation Codelist and Classification:[Download Here](https://www.census.gov/people/io/files/2013 ACS 1-year and 2014 SIPP PUMS Occupation code list.xlsx)  <br />
 Visualization Inspirations:
-[BiPartite](http://qacprojects.wesleyan.edu/visualizations/test/bigPartite.html)   <br />
-[Chord Diagram](http://qacprojects.wesleyan.edu/visualizations/test/coffee-from-files.html) <br />
+[BiPartite](http://bl.ocks.org/NPashaP/9796212)   <br />
+[Chord Diagram](http://www.delimited.io/blog/2013/12/8/chord-diagrams-in-d3 ) <br />
 
 
 Most of the javascript coding credits to http://bl.ocks.org/NPashaP/9796212
