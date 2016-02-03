@@ -31,8 +31,16 @@
       #circle:hover path.fade {
         display: none;
       }
+      #body {
+        margin: auto;
+        width:50%;
+        height: 80%;
+        
+      }
+
+
     </style>
-    // <script type="text/javascript">
+       <script type="text/javascript">
     // var _gaq = _gaq || [];
     // _gaq.push(['_setAccount', 'UA-45101494-1']);
     // _gaq.push(['_setDomainName', 'delimited.io']);
@@ -44,7 +52,7 @@
     // })();
     // </script>
   </head>
-  <body>
+  <body id = "body">
     <div id="tooltip"></div>
     <script src="d3.js"></script>
     <script src="underscore.js"></script>
@@ -63,7 +71,7 @@
       //*******************************************************************
       function drawChords (matrix, mmap) {
         // console.log("hello");
-        var w = 980, h = 800, r1 = h / 2, r0 = r1 - 100;
+        var w = 980, h = 1000, r1 = h / 2.5, r0 = r1 - 100;
 
         var fill = d3.scale.ordinal()
             .range(['#c7b570','#c6cdc7','#335c64','#768935','#507282','#5c4a56','#aa7455','#574109','#837722','#73342d','#0a5564','#9c8f57','#7895a4','#4a5456','#b0a690','#0a3542',]);
