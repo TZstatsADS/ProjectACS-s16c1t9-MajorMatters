@@ -1,7 +1,7 @@
 # Project 1: Major Matters
 
 by Group 9 
-Husam Abdul-Kafi, Jingying Zhou, Yuhan Sun, Zac Wu, Eric Ho
+Husam Abdul-Kafi, Jingying Zhou, Yuhan Sun, Ziyue (Zac) Wu, Eric Ho
 
 ### Research Questions
 ####To what extent does one's major determine his/her career?
