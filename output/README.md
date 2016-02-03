@@ -100,7 +100,7 @@ Therefore, the small p-value indicates that having a computer science related de
 ###References
 Major Classification Standard:[View Here](http://www.census.gov/prod/2012pubs/acsbr11-04a.pdf) <br />
 Occupation Codelist and Classification:[Download Here](https://www.census.gov/people/io/files/2013 ACS 1-year and 2014 SIPP PUMS Occupation code list.xlsx)  <br />
-Visualization Inspirations:[BiPartite](http://bl.ocks.ossrg/NPashaP/9796212)   <br />
+Visualization Inspirations:[BiPartite](http://bl.ocks.org/NPashaP/9796212)   <br />
 
 Most of the javascript coding credits to http://bl.ocks.org/NPashaP/9796212
 
