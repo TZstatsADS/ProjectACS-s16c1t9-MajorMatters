@@ -1,6 +1,7 @@
-# Project: Major Matters
+# Project 1: Major Matters
 
 by Group 9 
+Husam Abdul-Kafi, Jingying Zhou, Yuhan Sun, Zac Wu, Eric Ho
 
 ### Research Questions
 ####To what extent does one's major determine his/her career?
@@ -59,7 +60,7 @@ Do certain fields favor certain majors?
 
 #### Circular Graph
 
-#### Histogram
+#### Bar Plots
 
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/hist2.png?token=AKN9caexboNF0gwZqok1z65H0MYivr7Dks5WuqWTwA%3D%3D)
 
