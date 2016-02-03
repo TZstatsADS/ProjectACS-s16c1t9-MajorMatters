@@ -67,7 +67,7 @@
 
         var fill = d3.scale.ordinal()
             .range(['#c7b570','#c6cdc7','#335c64','#768935','#507282','#5c4a56','#aa7455','#574109','#837722','#73342d','#0a5564','#9c8f57','#7895a4','#4a5456','#b0a690','#0a3542',]);
-        var arr = {'Visual Arts':'#c7b570','Computers and Math':'#c6cdc7','Psychology':'#335c64', 'Business':'#768935', 'Social science':'#507282', 'Communication':'#5c4a56', 'Other fields':'#aa7455', 'Biological Science':'#574109', 'Engineering':'#837722', 'Literature':'#73342d', 'Science and Engineering related':'#0a5564', 'Physical Sciences':'#9c8f57', 'Education':'#7895a4', 'Multidisciplinary studies':'#4a5456', 'Liberal Arts':'#b0a690'};
+        var arr = {'Arts, Design, Entertainment, Sports, and Media':'#c7b570','Management':'#c6cdc7','Education, Training, and Library Occupations':'#335c64', 'Computer and mathematical occupations':'#768935', 'Office and Administrative Support':'#507282', 'Legal':'#5c4a56', 'Sales and Related Occupations':'#aa7455', 'Healthcare Practitioners and Technical Occupations':'#574109', 'Natural Resources, Construction, and Maintenance':'#837722', 'Service Occupations':'#73342d', 'Engineering and Architecture':'#0a5564', 'Life, Physical, and Social Science Occupations':'#9c8f57', 'Production, Transportation, and Material Moving':'#7895a4', 'Community and Social Service':'#4a5456', 'Military Specific':'#b0a690','Business and Financial Operations':'#0a3542'};
         var chord = d3.layout.chord()
             .padding(.02)
             .sortSubgroups(d3.descending)
@@ -119,7 +119,7 @@
               .enter().append("svg:path")
                 .attr("class", "chord")
                 .style("stroke", "black")
-                .style("fill", function(d) { return arr[rdr(d).tname]; })
+                .style("fill", function(d) {return arr[rdr(d).tname]; })
                 .attr("d", d3.svg.chord().radius(r0))
                 .on("mouseover", function (d) {
                   d3.select("#tooltip")
