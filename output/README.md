@@ -9,7 +9,7 @@ Husam Abdul-Kafi, Jingying Zhou, Yuhan Sun, Zac Wu, Eric Ho
 
 * Do people work in fields different from their college majors? How does this tendency vary across majors?  
 Do certain fields favor certain majors? 
-* Let's say, how many computer scientists have Bachelor’s Degrees in CS? <br /> *Income???*
+* Let's say, how many computer scientists have Bachelor’s Degrees in CS? <br /> *Income?*
 
 
 
@@ -54,13 +54,13 @@ Do certain fields favor certain majors?
 
 #### BiPart Graph
 
-<a href="http://localhost:8000/Desktop/cycle1-9/lib/bigPartie.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D) </a>
+<a href="http://localhost:8000/Desktop/cycle1-9/lib/bigPartite.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D) </a>
 
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot2.png?token=AKN9cShEtuC4-MfggxyMDMq-rLsKLkFXks5WuRaUwA%3D%3D)
 
 #### Circular Graph
 
-<a href="http://localhost:8000/Desktop/cycle1-9/lib/coffee-from-files.html">!![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/circle.png?token=AKN9cTMC83FRHNiK-izup2aqdQbcY2xXks5Wu4FvwA%3D%3D)</a>
+<a href="http://localhost:8000/Desktop/cycle1-9/lib/coffee-from-files.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/circle.png?token=AKN9cTMC83FRHNiK-izup2aqdQbcY2xXks5Wu4FvwA%3D%3D)</a>
 
 
 #### Bar Plots
