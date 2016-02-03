@@ -19,5 +19,5 @@ proj/
 └── output/
 ```
 
-Please see each subfolder for a README file.
+Please see the README in folder output for the presentation
 
