@@ -52,7 +52,7 @@
     <script src="mapper.js"></script>
     <script>
       queue()
-        .defer(d3.json, 'big_lis.json')
+        .defer(d3.json, 'big_lis_3.json')
         .defer(d3.json, 'new_map.json')
         .await(function(err, matrix, mmap) { 
           if (err) console.log(err);
