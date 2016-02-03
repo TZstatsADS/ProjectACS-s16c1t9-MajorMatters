@@ -19,8 +19,8 @@ Do certain fields favor certain majors?
 
 2. Occupations Categories
  * Data: **OCCP** column (Occupation Code)
- * Categories assigned according to the code list released by U.S. Census Bureau
- * 16 Categories in total 
+ * Categories assigned according to the code list released by the U.S. Census Bureau
+ * 16 categories in total 
 
 
 	Management Occupations               | Business and Financial Operations Occupations
@@ -36,7 +36,7 @@ Do certain fields favor certain majors?
 
  * Data: **FOD1P** column (Field of Degree 1st Entry)
  * Classification standard comes from the U.S. Census Bureau 
- * 15 Categories in total 
+ * 15 categories in total 
  * We then track the outflow of majors into different occupations.
 
 
@@ -72,8 +72,8 @@ Do certain fields favor certain majors?
 
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/income.png?token=AKN9ccCULz1mkr6BFK03x9WnOrGitwQGks5WuqWVwA%3D%3D)
 
-From the graph we can see computer science and engineering majors are tempted to have higher salary.
-Therefore, we conduct a t-test for Computer Science Related Majors vs Non-computer Science Related Majors
+From the graph we can see computer science and engineering majors are tempted to have higher salaries.
+Therefore, we conduct a t-test for computer science related majors vs non-computer science related majors
 
 ```
 #x:computer science related majors
@@ -91,14 +91,14 @@ mean of x mean of y
 84165.30  76451.92
 ```
 
-Therefore, the small p-value indicates that having a computer science related degree help to earn more.
+Therefore, the small p-value indicates that having a computer science related degree helps one to earn more!
 
 ###References
 Major Classification Standard:[View Here](http://www.census.gov/prod/2012pubs/acsbr11-04a.pdf) <br />
 Occupation Codelist and Classification:[Download Here](https://www.census.gov/people/io/files/2013 ACS 1-year and 2014 SIPP PUMS Occupation code list.xlsx)  <br />
 Visualization Inspirations:[BiPartite](http://bl.ocks.ossrg/NPashaP/9796212)   <br />
 
-most of the javascript coding credits to http://bl.ocks.org/NPashaP/9796212
+Most of the javascript coding credits to http://bl.ocks.org/NPashaP/9796212
 
 
 ###Coding Scripts
