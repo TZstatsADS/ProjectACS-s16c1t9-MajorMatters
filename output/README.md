@@ -77,7 +77,8 @@ Do certain fields favor certain majors?
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/income.png?token=AKN9ccCULz1mkr6BFK03x9WnOrGitwQGks5WuqWVwA%3D%3D)
 
 From the graph we can see computer science and engineering majors are tempted to have higher salaries.
-Therefore, we conduct a t-test for computer science related majors vs non-computer science related majors
+In order to get a more statistical view of our topic, we take people with occupations in CS fields as an example. We conduct a t-test for computer science related majors versus non-computer science related majors.
+
 
 ```
 #x:computer science related majors
@@ -95,7 +96,7 @@ mean of x mean of y
 84165.30  76451.92
 ```
 
-Therefore, the small p-value indicates that having a computer science related degree helps one to earn more!
+Therefore, the small p-value indicates that having a computer science related degree helps one to earn more in the CS fields ! 
 
 ###References
 Major Classification Standard:[View Here](http://www.census.gov/prod/2012pubs/acsbr11-04a.pdf) <br />
