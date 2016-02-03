@@ -72,8 +72,13 @@ Do certain fields favor certain majors?
 
 ![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/income.png?token=AKN9ccCULz1mkr6BFK03x9WnOrGitwQGks5WuqWVwA%3D%3D)
 
+From the graph we can see computer science and engineering majors are tempted to have higher salary.
+Therefore, we conduct a t-test for Computer Science Related Majors vs Non-computer Science Related Majors
 
 ```
+#x:computer science related majors
+#y:non-computer science related majors
+
 Welch Two Sample t-test
  
 data:  wage.com and wage.non
