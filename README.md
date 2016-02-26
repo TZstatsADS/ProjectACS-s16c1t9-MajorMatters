@@ -52,7 +52,7 @@ Do certain fields favor certain majors?
 
 ### Visualization
 
-#### BiPart Graph (Click me!)
+#### BiPart Graph 
 
 <a href="http://qacprojects.wesleyan.edu/visualizations/test/bigPartite.html">(Click me!)</br>![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/ScreenShot1.png?token=AKN9cU9GaFIwejKfkUzVaqLcxsGX9OY_ks5WuROFwA%3D%3D) </a>
 
@@ -60,7 +60,7 @@ Do certain fields favor certain majors?
 
 #### Circular Graph
 
-<a href="http://qacprojects.wesleyan.edu/visualizations/test/coffee-from-files.html">![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/circle.png?token=AKN9cTMC83FRHNiK-izup2aqdQbcY2xXks5Wu4FvwA%3D%3D)</a>
+<a href="http://qacprojects.wesleyan.edu/visualizations/test/coffee-from-files.html">(Click me!)</br>![Screen Shot](https://raw.githubusercontent.com/TZstatsADS/cycle1-9/master/output/image/circle.png?token=AKN9cTMC83FRHNiK-izup2aqdQbcY2xXks5Wu4FvwA%3D%3D)</a>
 
 
 #### Bar Plots
